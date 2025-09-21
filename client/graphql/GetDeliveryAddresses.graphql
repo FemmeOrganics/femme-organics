@@ -1,0 +1,33 @@
+query GetDeliveryAddresses($customerId: Int!){
+    deliveryAddresses(customerId: $customerId) {
+        id
+        phoneNumber
+        address
+        deliveryFee
+        deliveryZoneLocation {
+            id
+            address
+            zone {
+                id
+                name
+                standardTime
+                standardPrice
+                expressPrice
+                createdAt
+            }
+            createdAt
+        }
+        deliveryPickupMtaani {
+            id
+            agentName
+            locationName
+            deliveryFee
+            createdAt
+        }
+        type
+        name
+        locationId
+        lng
+        lat
+    }
+}

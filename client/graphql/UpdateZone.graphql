@@ -1,0 +1,9 @@
+mutation UpdateZone($zoneId:Int!, $payload: ZoneInput!){
+    updateZone(zoneId: $zoneId,payload: $payload){
+        __typename
+        name
+        standardPrice
+        standardTime
+        expressPrice
+    }
+}

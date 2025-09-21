@@ -1,0 +1,18 @@
+mutation SignupCustomer($user: UserInput!, $customer: CustomerInput!) {
+  signupCustomer(user: $user, customer: $customer) {
+    auth {
+      token
+    }
+    user {
+      id
+      phoneNumber
+      email
+      role
+    }
+    customer {
+      id
+      name
+      createdAt
+    }
+  }
+}

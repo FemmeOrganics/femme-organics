@@ -1,0 +1,8 @@
+mutation AddColor($color: ColorInput!) {
+  addColor(color: $color) {
+    __typename
+    id
+    name
+    value
+  }
+}

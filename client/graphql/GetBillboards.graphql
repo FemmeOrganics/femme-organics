@@ -1,0 +1,11 @@
+query GetBillboards($storeId: Int){
+    billboards(storeId: $storeId){
+        __typename
+        id
+        label
+        updatedAt
+        fileId
+        name
+        url
+    }
+}

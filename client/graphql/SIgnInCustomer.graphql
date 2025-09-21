@@ -1,0 +1,16 @@
+mutation LoginCustomer($user: UserInput!){
+    loginCustomer(user: $user){
+        auth {
+            token
+        }
+        customer {
+            id
+            name
+        }
+        user {
+            id
+            phoneNumber
+            role
+        }
+    }
+}

@@ -1,0 +1,5 @@
+mutation DeletePickupMtaani($pickupMtaaniId: Int!) {
+  deletePickupMtaani(pickupMtaaniId: $pickupMtaaniId) {
+    response
+  }
+}

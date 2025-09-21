@@ -1,0 +1,9 @@
+query GetSizes($storeId: Int!){
+    sizes(storeId: $storeId){
+        id
+        name
+        value
+        updatedAt
+        price
+    }
+}

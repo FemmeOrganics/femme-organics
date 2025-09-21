@@ -1,0 +1,8 @@
+mutation AddSize($size: SizeInput!) {
+  addSize(size: $size) {
+    __typename
+    id
+    name
+    value
+  }
+}

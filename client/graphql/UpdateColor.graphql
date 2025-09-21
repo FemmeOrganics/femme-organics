@@ -1,0 +1,9 @@
+mutation UpdateColor($colorId: Int!, $payload: ColorInput!){
+    updateColor(colorId: $colorId, payload: $payload){
+        __typename
+        id
+        name
+        value
+        
+    }
+}

@@ -1,0 +1,14 @@
+mutation SignUpAdmin($user: UserInput!, $admin: AdminInput!){
+    signupAdmin(user: $user, admin: $admin){
+        auth {
+            token
+        }
+        admin {
+            name
+        }
+        user {
+            phoneNumber
+            role
+        }
+    }
+}

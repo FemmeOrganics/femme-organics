@@ -1,0 +1,41 @@
+query GetProducts($storeId: Int!) {
+  products(storeId: $storeId) {
+    __typename
+    id
+    name
+    price
+    isArchived
+    isFeatured
+    updatedAt
+    specification
+    description
+    images {
+      __typename
+      id
+      url
+    }
+    store {
+      __typename
+      id
+      name
+    }
+    category {
+      __typename
+      id
+      name
+    }
+    sizes {
+      __typename
+      id
+      name
+      price
+      value
+    }
+    colors {
+      __typename
+      id
+      name
+      value
+    }
+  }
+}

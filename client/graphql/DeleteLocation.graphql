@@ -1,0 +1,6 @@
+mutation DeleteLocation($locationId: Int!){
+    deleteZoneLocation(locationId: $locationId){
+        __typename
+        response
+    }
+}

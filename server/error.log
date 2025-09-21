@@ -1,0 +1,177 @@
+{"level":"error","message":"An error occured while creating product for 3 at 07/10/2024"}
+{"level":"error","message":"An error occured while creating product for 3 at 07/10/2024"}
+{"level":"error","message":"update color for 1 failed 12/18/2024"}
+{"level":"error","message":"update color for 2 failed 12/20/2024"}
+{"level":"error","message":"update color for 2 failed 12/20/2024"}
+{"level":"error","message":"update store for 1 failed 2/8/2025"}
+{"level":"error","message":"update zone for 1 failed 2/8/2025"}
+{"level":"error","message":"update zone for 1 failed 2/8/2025"}
+{"level":"error","message":"update zone for 1 failed 2/8/2025"}
+{"level":"error","message":"update zone for 1 failed 2/8/2025"}
+{"level":"error","message":"An error occured while creating product for 1 at 2/9/2025"}
+{"level":"error","message":"An error occured while creating product for 1 at 2/9/2025"}
+{"level":"error","message":"An error occured while creating product for 1 at 2/9/2025"}
+{"level":"error","message":"An error occured while creating product for 1 at 2/9/2025"}
+{"level":"error","message":"An error occured while creating product for 1 at 2/9/2025"}
+{"level":"error","message":"update store for 1 failed 2/9/2025"}
+{"level":"error","message":"update store for 1 failed 2/9/2025"}
+{"level":"error","message":"An error occured while creating product for 9 at 2/15/2025"}
+{"level":"error","message":"Update product failed for 9 on 2/15/2025"}
+{"level":"error","message":"Update product failed for 9 on 2/15/2025"}
+{"level":"error","message":"Update product failed for 9 on 2/15/2025"}
+{"level":"error","message":"An error occured while creating product for 9 at 2/15/2025"}
+{"level":"error","message":"3/29/2025 Error in Transaction TypeError: Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."}
+{"level":"error","message":"3/29/2025 Error in Transaction ReferenceError: amountPaid is not defined"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"update order for 1 failed 5/4/2025"}
+{"level":"error","message":"Bulk sync error: Cannot read properties of undefined (reading 'Product')"}
+{"level":"error","message":"Bulk sync error: Cannot read properties of undefined (reading 'Product')"}
+{"level":"error","message":"Bulk sync error: Size is not defined"}
+{"level":"error","message":"Failed to sync product 2: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 1: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 11: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 12: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 10: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 5: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 8: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 6: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 4: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 3: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 9: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 7: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 2: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 1: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 11: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 12: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 10: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 5: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 8: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 6: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 4: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 3: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 9: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 7: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 2: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 1: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 11: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 12: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 10: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 5: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 8: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 6: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 4: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 3: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 9: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 7: Missing required parameters: merchantId"}
+{"level":"error","message":"Failed to sync product 2: invalid_grant"}
+{"level":"error","message":"Failed to sync product 1: invalid_grant"}
+{"level":"error","message":"Failed to sync product 11: invalid_grant"}
+{"level":"error","message":"Failed to sync product 12: invalid_grant"}
+{"level":"error","message":"Failed to sync product 10: invalid_grant"}
+{"level":"error","message":"Failed to sync product 5: invalid_grant"}
+{"level":"error","message":"Failed to sync product 8: invalid_grant"}
+{"level":"error","message":"Failed to sync product 6: invalid_grant"}
+{"level":"error","message":"Failed to sync product 4: invalid_grant"}
+{"level":"error","message":"Failed to sync product 3: invalid_grant"}
+{"level":"error","message":"Failed to sync product 9: invalid_grant"}
+{"level":"error","message":"Failed to sync product 7: invalid_grant"}
+{"level":"error","message":"Failed to sync product 2: invalid_grant"}
+{"level":"error","message":"Failed to sync product 1: invalid_grant"}
+{"level":"error","message":"Failed to sync product 11: invalid_grant"}
+{"level":"error","message":"Failed to sync product 12: invalid_grant"}
+{"level":"error","message":"Failed to sync product 10: invalid_grant"}
+{"level":"error","message":"Failed to sync product 5: invalid_grant"}
+{"level":"error","message":"Failed to sync product 8: invalid_grant"}
+{"level":"error","message":"Failed to sync product 6: invalid_grant"}
+{"level":"error","message":"Failed to sync product 4: invalid_grant"}
+{"level":"error","message":"Failed to sync product 3: invalid_grant"}
+{"level":"error","message":"Failed to sync product 9: invalid_grant"}
+{"level":"error","message":"Failed to sync product 7: invalid_grant"}
+{"level":"error","message":"Failed to sync product 2: invalid_grant"}
+{"level":"error","message":"Failed to sync product 1: invalid_grant"}
+{"level":"error","message":"Failed to sync product 11: invalid_grant"}
+{"level":"error","message":"Failed to sync product 12: invalid_grant"}
+{"level":"error","message":"Failed to sync product 10: invalid_grant"}
+{"level":"error","message":"Failed to sync product 5: invalid_grant"}
+{"level":"error","message":"Failed to sync product 8: invalid_grant"}
+{"level":"error","message":"Failed to sync product 6: invalid_grant"}
+{"level":"error","message":"Failed to sync product 4: invalid_grant"}
+{"level":"error","message":"Failed to sync product 3: invalid_grant"}
+{"level":"error","message":"Failed to sync product 9: invalid_grant"}
+{"level":"error","message":"Failed to sync product 7: invalid_grant"}
+{"level":"error","message":"Bulk sync error: oauth2Client is not defined"}
+{"level":"error","message":"Bulk sync error: Cannot read properties of undefined (reading 'getToken')"}
+{"level":"error","message":"Failed to sync product 2: invalid_grant"}
+{"level":"error","message":"Failed to sync product 1: invalid_grant"}
+{"level":"error","message":"Failed to sync product 11: invalid_grant"}
+{"level":"error","message":"Failed to sync product 12: invalid_grant"}
+{"level":"error","message":"Failed to sync product 10: invalid_grant"}
+{"level":"error","message":"Failed to sync product 5: invalid_grant"}
+{"level":"error","message":"Failed to sync product 8: invalid_grant"}
+{"level":"error","message":"Failed to sync product 6: invalid_grant"}
+{"level":"error","message":"Failed to sync product 4: invalid_grant"}
+{"level":"error","message":"Failed to sync product 3: invalid_grant"}
+{"level":"error","message":"Failed to sync product 9: invalid_grant"}
+{"level":"error","message":"Failed to sync product 7: invalid_grant"}
+{"level":"error","message":"Token exchange failed: Token exchange failed: invalid_grant"}
+{"level":"error","message":"Token exchange failed: Token exchange failed: invalid_grant"}
+{"level":"error","message":"Token exchange failed: Token exchange failed: invalid_grant"}
+{"level":"error","message":"Token exchange failed: axios is not defined"}
+{"level":"error","message":"Token exchange failed: Request failed with status code 400"}
+{"level":"error","message":"Token exchange failed: oauth2Client is not defined"}
+{"level":"error","message":"Failed to insert product 2: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 1: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 11: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 12: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 10: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 5: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 8: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 6: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 4: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 3: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 9: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 7: Token validation failed: invalid_grant"}
+{"level":"error","message":"Failed to insert product 2: invalid_grant"}
+{"level":"error","message":"Failed to insert product 1: invalid_grant"}
+{"level":"error","message":"Failed to insert product 11: invalid_grant"}
+{"level":"error","message":"Failed to insert product 12: invalid_grant"}
+{"level":"error","message":"Failed to insert product 10: invalid_grant"}
+{"level":"error","message":"Failed to insert product 5: invalid_grant"}
+{"level":"error","message":"Failed to insert product 8: invalid_grant"}
+{"level":"error","message":"Failed to insert product 6: invalid_grant"}
+{"level":"error","message":"Failed to insert product 4: invalid_grant"}
+{"level":"error","message":"Failed to insert product 3: invalid_grant"}
+{"level":"error","message":"Failed to insert product 9: invalid_grant"}
+{"level":"error","message":"Failed to insert product 7: invalid_grant"}
+{"level":"error","message":"An error occurred for 1 while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}
+{"level":"error","message":"An error occurred for  while querying for categories"}

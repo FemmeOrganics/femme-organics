@@ -1,0 +1,9 @@
+mutation AddPickupMtaani($pickupMtaani: PickupMtaaniInput) {
+  addPickupMtaani(pickupMtaani: $pickupMtaani) {
+    id
+    locationName
+    agentName
+    deliveryFee
+    createdAt
+  }
+}

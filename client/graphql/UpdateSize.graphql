@@ -1,0 +1,8 @@
+mutation UpdateSize($sizeId: Int!, $payload: SizeInput!){
+    updateSize(sizeId: $sizeId, payload: $payload){
+        __typename
+        id
+        name
+        
+    }
+}

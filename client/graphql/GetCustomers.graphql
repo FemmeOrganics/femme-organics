@@ -1,0 +1,21 @@
+query GetCustomers {
+  customers {
+    id
+    name
+    createdAt
+    customerOrder {
+      id
+      orderNumber
+      customerName
+      customerPhone
+      orderAmount
+      amountPaid
+      deliveryAmount
+      type
+      status
+      paymentStatus
+      createdAt
+      updatedAt
+    }
+  }
+}

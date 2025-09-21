@@ -1,0 +1,7 @@
+query GetCurrentMerchant{
+    currentMerchant{
+        __typename
+        id
+        name
+    }
+}

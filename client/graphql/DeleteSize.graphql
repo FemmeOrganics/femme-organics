@@ -1,0 +1,5 @@
+mutation deleteSize($storeId: Int!, $sizeId: Int!){
+    deleteSize(storeId: $storeId, sizeId: $sizeId){
+        response
+    }
+}

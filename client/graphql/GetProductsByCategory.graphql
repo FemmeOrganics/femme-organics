@@ -1,0 +1,34 @@
+query GetProductsByCategory( $categoryId: Int!) {
+  productsByCategory( categoryId: $categoryId){
+        __typename
+        id
+        name
+        price
+        isArchived
+        isFeatured
+        description
+        specification
+        sizes {
+            __typename
+            id
+            name
+            price
+        }
+        colors {
+            __typename
+            id
+            name
+            value
+        }
+        images {
+            id
+            url
+            fileId
+            name
+        }
+        category {
+            id
+            name
+        }
+    }
+}

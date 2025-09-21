@@ -1,0 +1,9 @@
+query GetColors($storeId: Int!){
+    colors(storeId: $storeId){
+        __typename
+        id
+        name
+        value
+        updatedAt
+    }
+}

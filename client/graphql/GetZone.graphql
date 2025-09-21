@@ -1,0 +1,13 @@
+query GetZone($zoneId: Int!) {
+    zone(zoneId: $zoneId) {
+        id
+        name
+        standardPrice
+        standardTime
+        expressPrice
+        locations {
+            id
+            address
+        }
+    }
+}

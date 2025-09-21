@@ -1,0 +1,53 @@
+query GetOrdersByCustomer($customerId: Int!) {
+  ordersByCustomer(customerId: $customerId) {
+    id
+    type
+    status
+    paymentStatus
+    orderNumber
+    orderAmount
+    amountPaid
+    deliveryAmount
+    createdAt
+    updatedAt
+    customerOrder {
+        name
+    }
+    orderItems {
+        id
+      price
+      quantity
+      orderProduct {
+        id
+        name
+        price
+      }
+    }
+    deliveryAddress {
+      name
+      phoneNumber
+      type
+      address
+      deliveryZoneLocation {
+          id
+          address
+          zone {
+              id
+              name
+              standardTime
+              standardPrice
+              expressPrice
+              createdAt
+          }
+          createdAt
+      }
+      deliveryPickupMtaani {
+        id
+        agentName
+        locationName
+        deliveryFee
+        createdAt
+      }
+    }
+  }
+}

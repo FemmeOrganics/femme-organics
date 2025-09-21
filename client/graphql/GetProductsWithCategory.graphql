@@ -1,0 +1,38 @@
+query GetProductsWithCategory{
+  productsWithCategory{
+    categoryName
+    categoryId
+    products {
+        __typename
+        id
+        name
+        price
+        description
+        specification
+        isFeatured
+        sizes {
+            __typename
+            id
+            name
+            price
+        }
+        colors {
+            __typename
+            id
+            name
+            value
+        }
+        category{
+                __typename
+                id
+                name
+        }
+        images {
+                  id
+            url
+            fileId
+            name
+        }
+    }
+    }
+}

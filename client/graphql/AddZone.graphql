@@ -1,0 +1,10 @@
+mutation AddZone($zone: ZoneInput!){
+    addZone(zone: $zone){
+        __typename
+        id
+        name
+        standardPrice
+        standardTime
+        expressPrice
+    }
+}

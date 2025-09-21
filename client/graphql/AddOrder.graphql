@@ -1,0 +1,15 @@
+mutation AddOrder($order: OrderInput!) {
+  addOrder(order: $order) {
+    id
+    status
+    orderItems {
+      id
+    }
+    deliveryAddress {
+        phoneNumber
+    }
+    customerOrder {
+        name
+    }
+  }
+}

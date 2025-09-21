@@ -1,0 +1,64 @@
+query GetOrders {
+  orders {
+    id
+    type
+    status
+    customerName
+    customerPhone
+    paymentStatus
+    orderNumber
+    orderAmount
+    amountPaid
+    deliveryAmount
+    createdAt
+    updatedAt
+    transactions {
+      id
+      phoneNumber
+      amount
+      type
+      transactionCode
+      createdAt
+    }
+    customerOrder {
+        name
+    }
+    orderItems {
+        id
+      price
+      quantity
+      orderProduct {
+        id
+        name
+        price
+      }
+    }
+    deliveryAddress {
+      name
+      phoneNumber
+      type
+      address
+      deliveryZoneLocation {
+          id
+          address
+          zone {
+              id
+              name
+              standardTime
+              standardPrice
+              expressPrice
+              createdAt
+          }
+          createdAt
+      }
+      deliveryPickupMtaani {
+        id
+        agentName
+        locationName
+        deliveryFee
+        createdAt
+      }
+    }
+
+  }
+}

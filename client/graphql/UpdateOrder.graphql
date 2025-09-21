@@ -1,0 +1,16 @@
+mutation UpdateOrder($orderId: Int!, $payload: OrderInputUpdate!) {
+  updateOrder(orderId: $orderId, payload: $payload) {
+    id
+    orderNumber
+    customerName
+    customerPhone
+    orderAmount
+    amountPaid
+    deliveryAmount
+    type
+    status
+    paymentStatus
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,15 @@
+mutation LoginAdmin($user: UserInput!){
+    loginAdmin(user: $user){
+        auth {
+            token
+        }
+        admin {
+            id
+            name
+        }
+        user {
+            phoneNumber
+            role
+        }
+    }
+}

@@ -1,0 +1,9 @@
+query GetPickupMtaanis {
+  pickupMtaanis {
+    id
+    locationName
+    agentName
+    deliveryFee
+    createdAt
+  }
+}

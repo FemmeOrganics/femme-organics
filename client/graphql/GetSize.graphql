@@ -1,0 +1,8 @@
+query GetSize($sizeId: Int!){
+    size(sizeId: $sizeId){
+        id
+        name
+        value
+        price
+    }
+}

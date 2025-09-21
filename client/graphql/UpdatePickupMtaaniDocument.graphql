@@ -1,0 +1,9 @@
+mutation UpdatePickupMtaani($pickupMtaaniId: Int!, $payload: PickupMtaaniInput) {
+  updatePickupMtaani(pickupMtaaniId: $pickupMtaaniId, payload: $payload) {
+    id
+    locationName
+    agentName
+    deliveryFee
+    createdAt
+  }
+}

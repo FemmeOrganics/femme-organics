@@ -1,0 +1,5 @@
+mutation DeleteColor($storeId: Int!, $colorId: Int!){
+    deleteColor(storeId: $storeId, colorId: $colorId){
+        response
+    }
+}

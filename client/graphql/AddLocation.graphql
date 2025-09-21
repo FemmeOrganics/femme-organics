@@ -1,0 +1,10 @@
+mutation AddLocation($location: LocationInput!){
+    addZoneLocation(location: $location){
+        __typename
+        address
+        zone {
+            id
+            name
+        }
+    }
+}

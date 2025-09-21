@@ -1,0 +1,15 @@
+mutation AddTransaction($transaction: TransactionInput!) {
+  addTransaction(transaction: $transaction) {
+    phoneNumber
+    amount
+    type
+    transactionCode
+    orderTransaction {
+      id
+      amountPaid
+      orderAmount
+      orderNumber
+      paymentStatus
+    }
+  }
+}

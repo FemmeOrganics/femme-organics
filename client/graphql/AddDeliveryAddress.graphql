@@ -1,0 +1,32 @@
+mutation AddDeliveryAddress($deliveryAddress: DeliveryAddressInput) {
+  addDeliveryAddress(deliveryAddress: $deliveryAddress) {
+    id
+    phoneNumber
+    address
+    deliveryFee
+    deliveryPickupMtaani {
+      id
+      agentName
+      deliveryFee
+      locationName
+    }
+    deliveryZoneLocation {
+      id
+      address
+      zone {
+        id
+        name
+        standardTime
+        standardPrice
+        expressPrice
+        createdAt
+      }
+      createdAt
+    }
+    type
+    name
+    locationId
+    lng
+    lat
+  }
+}

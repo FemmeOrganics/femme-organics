@@ -1,0 +1,7 @@
+query GetColor($colorId: Int!){
+    color(colorId: $colorId){
+        id
+        name
+        value
+    }
+}

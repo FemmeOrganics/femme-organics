@@ -1,0 +1,12 @@
+mutation UpdateCategory($categoryId: Int!, $payload: CategoryInput!){
+    updateCategory(categoryId: $categoryId, payload: $payload){
+        __typename
+        id
+        name
+        description
+        store{
+            __typename
+            id
+        }
+    }
+}

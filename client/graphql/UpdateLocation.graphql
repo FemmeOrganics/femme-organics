@@ -1,0 +1,6 @@
+mutation UpdateLocation($locationId: Int!, $payload: LocationUpdateInput!){
+    updateZoneLocation(locationId: $locationId, payload: $payload){
+        __typename
+        address
+    }
+}

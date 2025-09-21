@@ -1,0 +1,7 @@
+query GetCustomer($userId: Int!) {
+  customer(userId: $userId) {
+    id
+    name
+    createdAt
+  }
+}

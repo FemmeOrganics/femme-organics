@@ -1,0 +1,7 @@
+query GetLocation ($locationId: Int!) {
+    location (locationId: $locationId) {
+        id
+        address
+        createdAt
+    }
+}
